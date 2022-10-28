@@ -1,17 +1,17 @@
-var screen=document.getElementById("bckgnd");
+var screen=document.getElementById("bckGnd");
 function btnClk(value){
-screen.value+=value;
+bckGnd.value+=value;
 }
 function clear(){
-    bckgnd.value=" ";
+    bckGnd.value=" ";
 }
 
 function Result(){
-    if(document.getElementById('bckgnd').value!=1234){
+    if(document.getElementById('bckGnd').value!=1234){
         alert('Wrong pin number. Please try again.');
         return false;
     }
-    if(document.getElementById('bckgnd').value==1234){
+    if(document.getElementById('bcGgnd').value==1234){
         alert('Login is successful!');
         return true;
     }

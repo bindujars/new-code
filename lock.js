@@ -1,12 +1,12 @@
 var screen=document.getElementById("bckgnd");
-function btnClick(value){
+function btnClk(value){
 screen.value+=value;
 }
-function clearScreen(){
+function clear(){
     bckgnd.value=" ";
 }
 
-function findResult(){
+function Result(){
     if(document.getElementById('bckgnd').value!=1234){
         alert('Wrong pin number. Please try again.');
         return false;
